@@ -7,7 +7,7 @@ import ViewProfile from './Components/Profiles/viewProfile';
 function App() {
   return (
     <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Route exact path="/" component={Profiles}/>
     <Route path="/ViewProfile" component={ViewProfile}/>
     </BrowserRouter>

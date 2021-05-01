@@ -147,6 +147,8 @@ return (
                 <Grid container spacing={10}>
                     <Grid item xs={12} md={11} lg={9}>
                         <Typography variant="h4" color="primary">Posts</Typography>
+                        {postList.map(item => 
+                        <>
                         <Card>
                             <CardContent>
                                 <Grid item container wrap="nowrap" xs={11}>
@@ -154,13 +156,15 @@ return (
                                         <Avatar src={imgLink} />
                                     </Grid>
                                     <Grid item xs={9} sm={10} md={11}>
-                                        <Typography variant="h6" color="primary">{postList.title}</Typography>
-                                        <Typography variant="subtitle1">{postList.body}</Typography>
+                                        <Typography variant="h6" color="primary">{item.title}</Typography>
+                                        <Typography variant="subtitle1">{item.body}</Typography>
                                     </Grid>
                                 </Grid>                    
                             </CardContent>
                         </Card>
                         <Comments />
+                        </>)
+                        }
                     </Grid>      
                 </Grid>
             </main>

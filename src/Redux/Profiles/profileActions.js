@@ -15,7 +15,7 @@ const getPostsData = (id) => (dispatch) => {
 
 const getCommentsData = (id) => (dispatch) => {
     getComments(id).then(res => {
-        dispatch(updatePostComments([res]))
+        dispatch(updatePostComments(res))
     });
 } 
 

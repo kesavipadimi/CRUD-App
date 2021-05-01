@@ -3,11 +3,11 @@ export const getProfiles = () => {
 };
 
 export const getPosts = (id) => {
-    return fetch(`https://jsonplaceholder.typicode.com/posts/${id}`).then(res => res.json());    
+    return fetch(`https://jsonplaceholder.typicode.com/user/${id}/posts/`).then(res => res.json());    
 };
 
 export const getComments = (id) => {
-    return fetch(`https://jsonplaceholder.typicode.com/comments/${id}`).then(res => res.json());    
+    return fetch(`https://jsonplaceholder.typicode.com/posts/${id}/comments`).then(res => res.json());    
 };
 
 export const addComment = (comment) => {
