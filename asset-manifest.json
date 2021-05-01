@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CRUD-App/static/css/main.8c031e0f.chunk.css",
-    "main.js": "/CRUD-App/static/js/main.9f226258.chunk.js",
-    "main.js.map": "/CRUD-App/static/js/main.9f226258.chunk.js.map",
+    "main.js": "/CRUD-App/static/js/main.f23230e8.chunk.js",
+    "main.js.map": "/CRUD-App/static/js/main.f23230e8.chunk.js.map",
     "runtime-main.js": "/CRUD-App/static/js/runtime-main.f4a45daf.js",
     "runtime-main.js.map": "/CRUD-App/static/js/runtime-main.f4a45daf.js.map",
     "static/js/2.e9510eac.chunk.js": "/CRUD-App/static/js/2.e9510eac.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f4a45daf.js",
     "static/js/2.e9510eac.chunk.js",
     "static/css/main.8c031e0f.chunk.css",
-    "static/js/main.9f226258.chunk.js"
+    "static/js/main.f23230e8.chunk.js"
   ]
 }
